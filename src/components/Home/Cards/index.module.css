@@ -1,0 +1,49 @@
+.cards_card_block {
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 350px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cards_card_blockDark {
+    box-shadow: rgba(86, 86, 86, 0.2) 0px 2px 8px 0px;
+}
+
+.cards_card_block:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cards_card_block img {
+    width: 320px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card_desc {
+    padding: 32px;
+}
+
+
+.title {
+    color: rgb(57, 78, 106);
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.titleDark {
+    color: rgb(229, 231, 235);
+}
+
+.price {
+    color: rgb(103, 14, 187);
+}
+
+.priceDark {
+    color: rgb(179, 105, 247);
+}
+

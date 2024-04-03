@@ -1,0 +1,209 @@
+.bigg_container {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.card {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.card .text1 {
+    font-size: 45px;
+}
+.card__page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.card__page img {
+    border-radius: 9px;
+    object-fit: cover;
+}
+.text1 {
+    font-size: 40px;
+    color:  rgb(57, 78, 106);
+    box-shadow: 0px 1px 0px rgb(240, 246, 255);
+    width: 500px;
+    width: 1200px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.Bit__team {
+    display: flex;
+    flex-wrap: wrap;
+}
+.texth1 {
+    color: rgb(57, 78, 106) ;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.texth1Dark {
+    color: #fff ;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.titleDark {
+    font-size: 40px;
+    color: #fff;
+    box-shadow: 0px 1px 0px rgb(240, 246, 255);
+    width: 500px;
+    width: 1200px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.span1 {
+    color: rgb(157, 150, 150);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.span1Darl {
+    color: rgb(157, 150, 150);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.textp {
+    font-size: 18px;
+    margin-top: 25px;
+    color: rgb(57, 78, 106);
+}
+.yellow {
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+.textpDark {
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+.card__select {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    gap: 15px;
+    margin-left: 30px;
+}
+.selectlabel {
+    font-size: 20px;
+}
+.selectlabelDark {
+    font-size: 20px;
+    color: White;
+}
+.select {
+    padding: 8px 15px;
+    border: 1px solid rgb(183, 177, 177);
+    border-radius: 8px;
+    font-size: 18px;
+
+}
+.selectDark {
+    padding: 8px 15px;
+    border: 1px solid rgb(183, 177, 177);
+    border-radius: 8px;
+    font-size: 18px;
+
+}
+option {
+    font-size: 18px;
+}
+.price {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    color: rgb(57, 78, 106);
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.priceDark {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.card__pice__part {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__price_team {
+   
+    margin-top: 20px;
+    margin-left: 100px !important;
+    padding: 20px;
+    background: rgb(240, 246, 255);
+    border-radius: 10px;
+    display: flex;
+    /* gap: 100px; */
+    flex-direction: column;
+    width: 250px;
+}
+.card__price_teamDark {
+   
+    margin-top: 20px;
+    margin-left: 100px !important;
+    padding: 20px;
+    background: #121212;
+    border-radius: 10px;
+    display: flex;
+    /* gap: 100px; */
+    flex-direction: column;
+    width: 250px;
+}
+
+.priceColor {
+    color: #757575;;
+}
+.priceColorDark {
+    color: #fff;
+}
+.TextColor {
+    color: #757575;
+}
+.TextColorDark {
+    color: #fff;
+}
+.priceTee {
+    box-shadow: 0px 1px 0px black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.priceTeeDark {
+    box-shadow: 0px 1px 0px #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.btn {
+    position: relative;
+    color: white;
+    padding: 11px;
+    background: #057AFF;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    top: 80px;
+    width: 250px;
+    left: -19px;
+    font-size: 10px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background: #057AFF;
+    opacity: 10;
+}
